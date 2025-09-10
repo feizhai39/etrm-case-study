@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter / VSCode
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# --- Databases ---
+*.db
+*.sqlite3
+
+# --- Power BI ---
+*.pbix
+*.pbit
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Export files ---
+/exports/*.csv
+/exports/*.xlsx
+
+# --- Others ---
+*.bak
+*.tmp
