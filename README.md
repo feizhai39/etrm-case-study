@@ -1,6 +1,9 @@
 # ETRM Case Study  
+![Python](https://img.shields.io/badge/Python-3.8-blue)
+![SQLite](https://img.shields.io/badge/SQLite-3-lightgrey)
+![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
 
-Prototype trade ingestion and monitoring system built as part of the ETRM Developer case study.  
+Prototype trade ingestion and monitoring system built as part of the ETRM Developer case study. 
 
 ## 📂 Project Structure  
 - **etl/** → Python scripts for loading and normalizing broker trades  
@@ -87,16 +90,19 @@ sqlite3 etrm.db < db/views_positions.sql
 
 3. **Risk Dashboard/** → Max Loss/Gain, Exposure Heatmap, Distribution
 
-⚠️ If .pbix >100MB → submitted separately via email as instructed.
+⚠️ If the `.pbix` file exceeds GitHub limits, please request the PBIX file via email as instructed.
+
 
 ## 📈 Example Outputs
-**Portfolio Overview/**
+**Portfolio Overview**
+![Portfolio Overview](images/dashboard_overview.png)
 
 - Total Positions, Avg Price, Market Price, Total Margin
 
 - Trend Chart (Variation Margin & Position Qty over Delivery Month)
 
-**Trade & Position Details/**
+**Trade & Position Details**
+![Trade & Position Details](images/trade_position_details.png)
 
 - Positions by Product
 
@@ -104,7 +110,8 @@ sqlite3 etrm.db < db/views_positions.sql
 
 - Margin Trend by Account
 
-**Risk Dashboard/**
+**Risk Dashboard**
+![Risk Dashboard](images/risk_view.png)
 
 - Max Loss, Max Gain, Largest Exposure Product/Size (cards)
 
