@@ -23,7 +23,7 @@ venv/
 *.sqlite3
 
 # --- Power BI ---
-*.pbix
+# *.pbix
 *.pbit
 
 # --- OS files ---
